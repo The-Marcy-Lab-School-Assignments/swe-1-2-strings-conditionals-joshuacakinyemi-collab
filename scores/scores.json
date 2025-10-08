@@ -1,7 +1,7 @@
 {
   "testScores": {
     "From Scratch Tests": {
-      "FrScTe1": 0,
+      "FrScTe1": 1,
       "FrScTe2": 1,
       "FrScTe3": 1,
       "FrScTe4": 1,
@@ -16,9 +16,9 @@
       "MoTe3": 0
     },
     "Debug Tests": {
-      "DeTe1": 0,
+      "DeTe1": 1,
       "DeTe2": 1,
-      "DeTe3": 0,
+      "DeTe3": 1,
       "DeTe4": 1
     }
   },
@@ -60,9 +60,9 @@
     "From Scratch Tests funTypes - returns the right message based on type": "FrScTe3"
   },
   "humanReadable": {
-    "From Scratch Tests": "7/8",
-    "finalTestScore": "FINAL SCORE: 10/15",
+    "From Scratch Tests": "8/8",
+    "finalTestScore": "FINAL SCORE: 13/15",
     "Modify Tests": "1/3",
-    "Debug Tests": "2/4"
+    "Debug Tests": "4/4"
   }
 }
