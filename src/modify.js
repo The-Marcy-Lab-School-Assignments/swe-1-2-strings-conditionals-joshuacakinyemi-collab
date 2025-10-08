@@ -5,14 +5,14 @@ const wildlyBiasedReview = (location) => {
     console.log("WOW WHAT A CITY")
     return;
   } else {
-    return "Yea that place is cool I guess";
+    console.log("Yea that place is cool I guess");
   }
 };
 
 
 
 const getWeatherReport = (temperature) => {
-  let weatherReport;
+  let weatherReport
   if (temperature > 90) {
     weatherReport = "It's hot and gross out.";
   } else if (temperature > 70) {
@@ -20,7 +20,7 @@ const getWeatherReport = (temperature) => {
   } else if (temperature < 32) {
     weatherReport = "Wow, it's cold out.";
   }
-  console.log("weatherReport")
+  console.log(weatherReport)
   console.log("And that's you report!")
 };
 
