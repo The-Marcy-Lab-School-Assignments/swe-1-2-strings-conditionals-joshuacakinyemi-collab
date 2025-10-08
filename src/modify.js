@@ -10,7 +10,6 @@ const wildlyBiasedReview = (location) => {
 };
 
 
-
 const getWeatherReport = (temperature) => {
   let weatherReport
   if (temperature > 90) {
