@@ -1,5 +1,5 @@
 const coolnessGauge = (numOfFridges) => {
-  return numOfFridges <= 4 ? 'You need more fridges.' : 'You are downright chilly!';
+  return numOfFridges <= 3 ? 'You need more fridges.' : 'You are downright chilly!';
 };
 
 const funkoPopAddictionLevel = (numOfFunkoPops) => {
@@ -17,7 +17,13 @@ const funkoPopAddictionLevel = (numOfFunkoPops) => {
 };
 
 const returnPositiveNegativeZero = (num) => {
-  return num > 0 ? 'Positive' : num === 0 ? 'Zero' : 'Negative';
+  if (num > 0) {
+    return 'Positive'
+  } else if (num === 0) {
+    return 'Zero'
+  } else {
+    return 'Negative'
+  }
 };
 
 module.exports = {

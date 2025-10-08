@@ -4,7 +4,7 @@ const measureRain = (inches) => {
   } else if (inches < 2 && inches > 0) {
     return "dry"
   } else if (inches < 4 && inches > 1) {
-    return "averge"
+    return "average"
   } else if (inches < 6 && inches >= 4) {
     return "rainy"
   } else {
