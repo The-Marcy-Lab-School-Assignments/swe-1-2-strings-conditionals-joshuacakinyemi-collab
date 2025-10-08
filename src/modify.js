@@ -19,7 +19,7 @@ const getWeatherReport = (temperature) => {
     weatherReport = "Wow, it's cold out.";
   }
   console.log(weatherReport);
-  console.log("And that's you report!");
+  console.log("And that's your report!");
 };
 
 module.exports = {
