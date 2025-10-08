@@ -1,11 +1,11 @@
 const measureRain = (inches) => {
   if (inches === 0) {
     return "drought"
-  } else if (inches <= 2 && inches > 0) {
+  } else if (inches < 2 && inches > 0) {
     return "dry"
-  } else if (inches < 4 && inches > 2) {
+  } else if (inches < 4 && inches >= 2) {
     return "averge"
-  } else if (inches < 6 && inches > 4) {
+  } else if (inches < 6 && inches >= 4) {
     return "rainy"
   } else {
     return "flood"

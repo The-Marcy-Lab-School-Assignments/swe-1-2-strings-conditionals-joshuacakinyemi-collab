@@ -1,10 +1,18 @@
-const wildlyBiasedReview = (location) => {
+const wildlyBiasedReview = (location, rate) => {
   if (location !== 'NYC') {
-    return "Yea that place is cool I guess"
+    return "Yea that place is cool I guess";
   }
-  if (location === 'NYC')
-    return 'THE GREATEST CITY IN THE WORLD' + ", " + 'THE CITY THAT NEVER SLEEPS' + ", " + 'WOW WHAT A CITY';
+  if (rate === 1) {
+    return "WOW WHAT A CITY"
+  }
+  if (rate === 2) {
+    return "THE CITY THAT NEVER SLEEPS"
+  } else {
+    return "THE GREATEST CITY IN THE WORLD";
+  }
 };
+
+
 
 const getWeatherReport = (temperature) => {
   let weatherReport;
@@ -15,7 +23,7 @@ const getWeatherReport = (temperature) => {
   } else if (temperature < 32) {
     weatherReport = "Wow, it's cold out.";
   }
-  return `${weatherReport} And that's you report!`
+  console.log(`${weatherReport} And that's you report!`)
 };
 
 module.exports = {
