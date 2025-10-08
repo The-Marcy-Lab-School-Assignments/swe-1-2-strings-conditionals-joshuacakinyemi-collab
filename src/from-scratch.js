@@ -1,20 +1,20 @@
 const measureRain = (inches) => {
   if (inches === 0) {
-    return 'drought'
-  } else if (inches < 2 && inches > 0) {
-    return 'dry'
+    return "drought"
+  } else if (inches <= 2 && inches > 0) {
+    return "dry"
   } else if (inches < 4 && inches > 2) {
-    return 'averge'
+    return "averge"
   } else if (inches < 6 && inches > 4) {
-    return 'rainy'
+    return "rainy"
   } else {
-    return 'flood'
+    return "flood"
   }
 };
 
 const happyBirthdayPet = (breed, age) => {
   if (breed === "snake" && age <= Infinity) {
-    return 'hiss'
+    return 'Hiss hiss!'
   } else if (breed === "cat" && age < 5) {
     return 'Mew mew!'
   } else if (breed === "cat" && age >= 5) {
@@ -26,7 +26,7 @@ const happyBirthdayPet = (breed, age) => {
   } else if (breed === "dog" && age >= 10) {
     return 'Boof!'
   } else {
-    return 'Happy birthday'
+    return 'Happy birthday!'
   }
 };
 
@@ -79,9 +79,9 @@ const startsWithVowel = (str) => {
   const firstChar = str[0].toLowerCase()
   const vowels = ['a', 'e', 'i', 'o', 'u'];
   if (vowels.includes(firstChar)) {
-    return "true"
+    return true
   } else {
-    return "false"
+    return false
   }
 };
 
@@ -89,11 +89,11 @@ const rotate = (str, num) => {
   let myArray = str.split("")
 
   for (i = 0; i < num; i++) {
-    let move = myArray.shift()
-    myArray.push(move)
+    let move = myArray.pop()
+    myArray.unshift(move)
 
   }
-  returnmyArray.join("")
+  return myArray.join("")
 };
 
 module.exports = {
