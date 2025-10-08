@@ -7,7 +7,7 @@
       "FrScTe4": 1,
       "FrScTe5": 1,
       "FrScTe6": 1,
-      "FrScTe7": 0,
+      "FrScTe7": 1,
       "FrScTe8": 0
     },
     "Modify Tests": {
@@ -60,8 +60,8 @@
     "From Scratch Tests funTypes - returns the right message based on type": "FrScTe3"
   },
   "humanReadable": {
-    "From Scratch Tests": "4/8",
-    "finalTestScore": "FINAL SCORE: 6/15",
+    "From Scratch Tests": "5/8",
+    "finalTestScore": "FINAL SCORE: 7/15",
     "Modify Tests": "1/3",
     "Debug Tests": "1/4"
   }
