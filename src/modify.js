@@ -18,8 +18,8 @@ const getWeatherReport = (temperature) => {
   } else if (temperature < 32) {
     weatherReport = "Wow, it's cold out.";
   }
-  console.log(weatherReport)
-  console.log("And that's you report!")
+  console.log(weatherReport);
+  console.log("And that's you report!");
 };
 
 module.exports = {
